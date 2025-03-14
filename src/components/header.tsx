@@ -21,7 +21,13 @@ export function Header() {
           </ul>
         </nav>
         <div>
-        <Link href={"https://facebook.com"} target="_blank" className="py-3 px-7 bg-primary text-white rounded-md">Book Now</Link>
+          <Link
+            href={"https://facebook.com"}
+            target="_blank"
+            className="py-3 px-7 bg-primary text-white rounded-md"
+          >
+            Book Now
+          </Link>
         </div>
       </div>
     </header>
