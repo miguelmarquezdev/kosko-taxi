@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Hero } from "@/components/hero";
 import { WhyUs } from "@/components/why-us";
 import { SemiFooter } from "@/components/semi-footer";
