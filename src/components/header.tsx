@@ -13,16 +13,19 @@ export function Header() {
               <Link href={"/"}>Home</Link>
             </li>
             <li>
-              <Link href={"/posts"}>Blog</Link>
+              <Link href={"/servicios"}>Services</Link>
             </li>
             <li>
               <Link href={"/about"}>About</Link>
+            </li>
+            <li>
+              <Link href={"/posts"}>Blog</Link>
             </li>
           </ul>
         </nav>
         <div>
           <Link
-            href={"https://facebook.com"}
+            href={"https://wa.link/c4rbmo"}
             target="_blank"
             className="py-3 px-7 bg-primary text-white rounded-md"
           >

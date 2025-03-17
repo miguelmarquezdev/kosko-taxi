@@ -13,7 +13,7 @@ export const Footer = () => {
              por todas sus rutas.
           </h2>
           <Link
-            href={"/about-us"}
+            href={"/about"}
             className="bg-black/40 py-3 px-7 rounded font-bold text-lg"
           >
             Conoce más sobre nosotros
