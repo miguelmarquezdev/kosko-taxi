@@ -45,7 +45,7 @@ export function Header() {
               </Link>
             </li>
             <li>
-              <p aria-disabled="true" className="flex gap-1 md:inline" onClick={() => setIsOpen(false)}>
+              <p aria-disabled="true" className="flex gap-1 " onClick={() => setIsOpen(false)}>
                 Blog <span className="opacity-50 text-sm bg-neutral-200 p-1 rounded-4xl">Proximamente</span>
               </p>
             </li>
