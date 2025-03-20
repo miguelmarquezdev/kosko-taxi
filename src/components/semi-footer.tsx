@@ -4,13 +4,16 @@ import { AiFillMessage } from "react-icons/ai";
 
 export const SemiFooter = () => {
   return (
-    <section className="pb-28 z-50 bg-primary">
-      <div className="bg-white rounded-b-[100px] py-28">
-        <div className="max-w-[1200px] mx-auto space-y-10">
-          <div className="grid grid-cols-2 gap-20">
+    <section className="md:pb-28 pb-10  z-50 bg-primary">
+      <div className="bg-white md:rounded-b-[100px] rounded-b-4xl md:py-28 py-10">
+        <div className="max-w-[1200px] mx-auto space-y-10 md:px-0 px-6">
+          <div className="grid md:grid-cols-2  md:gap-20 gap-5">
             <div>
-              <h2 className="text-4xl text-secondary font-bold leading-14">
+              <h2 className="text-4xl text-secondary font-bold leading-14 hidden md:block">
                 Tu seguridad, <br /> nuestro compromiso
+              </h2>
+              <h2 className="text-3xl text-secondary font-bold md:leading-14 leading-10">
+                Tu seguridad, nuestro compromiso
               </h2>
             </div>
             <div>
@@ -20,7 +23,7 @@ export const SemiFooter = () => {
               </p>
             </div>
           </div>
-          <div className="grid grid-cols-3 gap-5">
+          <div className="grid md:grid-cols-3 gap-5">
             <div className="border rounded-4xl border-[#e4e4f7]  p-10 space-y-5">
               <div>
                 {" "}

@@ -10,12 +10,12 @@ export default async function Page() {
   return (
     <main>
       <section className="pb-28 z-50 bg-primary">
-        <div className="bg-white rounded-b-[100px] pt-20 pb-28">
+        <div className="bg-white md:rounded-b-[100px] rounded-b-4xl md:pt-20 md:pb-28 py-10 md:px-0 px-6">
           <div className="max-w-[1200px] mx-auto flex flex-col space-y-5 justify-center  items-center">
-            <h1 className="text-5xl text-secondary font-bold leading-16">
+            <h1 className="md:text-5xl text-3xl text-secondary font-bold md:leading-16 leading-10">
               Nuestro Servicios
             </h1>
-            <p className="text-third text-xl font-semibold">
+            <p className="text-third text-xl font-semibold md:text-left text-center">
               Un modelo de entrega para cada mercancía
             </p>
             <Link
@@ -25,7 +25,7 @@ export default async function Page() {
             >
               Contacta con ventas
             </Link>
-            <div className="w-full h-[500px] overflow-hidden relative rounded-4xl block mt-5">
+            <div className="w-full nd:h-[500px] overflow-hidden relative rounded-4xl block mt-5">
               <Image
                 src="/envio-paquetes.webp"
                 width={1200}
@@ -38,8 +38,8 @@ export default async function Page() {
                 className="shadow-lg shadow-neutral-700/10 object-center object-cover"
               />
             </div>
-            <div className="flex flex-row w-full pt-10 gap-5">
-              <div className="md:w-7/12 bg-primary/5 p-15 rounded-4xl space-y-7">
+            <div className="flex md:flex-row flex-col w-full pt-10 gap-5">
+              <div className="md:w-7/12 bg-primary/5 md:p-15 p-10 rounded-4xl space-y-7">
                 <span className="text-primary bg-primary/10 py-2 px-3 font-bold rounded-4xl inline-block">
                   ¿Por qué elegir Kosko Taxi?
                 </span>
@@ -58,7 +58,7 @@ export default async function Page() {
                   </p>
                 </div>
               </div>
-              <div className="md:w-5/12 bg-primary/5 p-5 rounded-4xl space-y-7">
+              <div className="md:w-5/12 bg-primary/5 md:p-5 rounded-4xl space-y-7">
                 <Image
                   src="/envio.webp"
                   width={900}
@@ -72,7 +72,7 @@ export default async function Page() {
                 />
               </div>
             </div>
-            <div className="grid grid-cols-3 gap-5">
+            <div className="grid md:grid-cols-3 gap-5">
               <div className="border rounded-4xl border-[#e4e4f7]  p-10 space-y-5">
                 <div>
                   <FaClock  className="text-3xl text-primary" />

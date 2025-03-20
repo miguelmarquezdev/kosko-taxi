@@ -5,10 +5,10 @@ import Image from "next/image";
 
 export const WhyUs = () => {
   return (
-    <section className="py-28 bg-fourth">
-      <div className="max-w-[1200px] mx-auto">
-        <div className="grid grid-cols-2 gap-20">
-          <div className="bg-[#e5f0ff] rounded-4xl flex justify-center pb-20">
+    <section className="md:py-28 py-10 bg-fourth">
+      <div className="max-w-[1200px] mx-auto md:px-0 px-6">
+        <div className="grid md:grid-cols-2 gap-20">
+          <div className="bg-[#e5f0ff] rounded-4xl flex justify-center pb-20 nd:px-0 px-15">
             <Image
               src="/call.webp"
               width={400}

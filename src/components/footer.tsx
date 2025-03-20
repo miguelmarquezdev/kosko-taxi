@@ -3,23 +3,23 @@ import Image from "next/image";
 export const Footer = () => {
   return (
     <footer className="bg-primary">
-      <div className="max-w-[1200px] mx-auto text-white pb-28 ">
-        <div className="bg-black/20 rounded-4xl py-20 px-10 flex flex-col justify-center items-center space-y-5">
+      <div className="max-w-[1200px] mx-auto text-white md:pb-28 pb-0 md:px-0 px-6">
+        <div className="bg-black/20 rounded-4xl md:py-20 py-10 px-10 flex flex-col justify-center items-center space-y-5">
           <span className="inline-block py-2 px-4 bg-black/30 rounded-3xl font-bold text-md">
             Kosko Taxi
           </span>
-          <h2 className="text-4xl text-center font-bold leading-12">
-            Estamos disponibles en la ciudad del Cusco <br /> con servicio
+          <h2 className="md:text-4xl text-2xl text-center md:font-bold font-semibold md:leading-12 leading-9">
+            Estamos disponibles en la ciudad del Cusco <br className="md:block hidden"/> con servicio
              por todas sus rutas.
           </h2>
           <Link
             href={"/about"}
-            className="bg-black/40 py-3 px-7 rounded font-bold text-lg"
+            className="bg-black/40 py-3 md:px-7 px-5 rounded font-bold md:text-lg text-md text-center"
           >
             Conoce más sobre nosotros
           </Link>
         </div>
-        <div className="grid grid-cols-2 justify-between border-b border-white/40 pt-28 pb-10">
+        <div className="grid md:grid-cols-2 justify-between gap-5 border-b border-white/40 md:pt-28 pt-10 pb-10">
           <div className="font-bold text-2xl text-white">
             <Link href={"/"}>KOSKO TAXI</Link>
           </div>

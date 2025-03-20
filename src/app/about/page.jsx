@@ -1,20 +1,17 @@
 import Link from "next/link";
 import Image from "next/image";
-import { FaClock } from "react-icons/fa";
-import { CgArrowLongRightR } from "react-icons/cg";
-import { FaLocationArrow } from "react-icons/fa6";
 
 export default async function Page() {
   return (
     <main>
       <section className="pb-28 z-50 bg-primary">
-        <div className="bg-white rounded-b-[100px] pt-20 pb-28">
-          <div className="max-w-[1200px] mx-auto flex flex-col space-y-5 justify-center  items-center">
-            <h1 className="text-5xl text-secondary font-bold leading-16 text-center">
-              Nuestra misión nos apasiona. Y <br />
+        <div className="bg-white md:rounded-b-[100px] rounded-b-4xl md:pt-20 nd:pb-28 py-10">
+          <div className="max-w-[1200px] mx-auto flex flex-col space-y-5 justify-center  items-center md:px-0 px-6">
+            <h1 className="md:text-5xl text-3xl text-secondary font-bold md:leading-16 leading-10">
+              Nuestra misión nos apasiona. Y <br className="md:block hidden" />
               también el viaje para llegar hasta allá.
             </h1>
-            <div className="flex flex-row w-full pt-10 gap-5">
+            <div className="flex md:flex-row flex-col w-full pt-10 gap-5">
               <div className="md:w-5/12 relative overflow-hidden rounded-4xl">
                 <Image
                   src="/travel.webp"
@@ -25,15 +22,15 @@ export default async function Page() {
                   placeholder="blur"
                   blurDataURL="/travel.webp"
                   alt="Services"
-                  className=" object-center object-cover w-full h-full absolute"
+                  className=" object-center object-cover w-full h-full md:absolute"
                 />
               </div>
-              <div className="md:w-7/12 bg-primary/5 p-15 rounded-4xl space-y-7">
-                <h2 className="text-3xl text-secondary font-bold leading-10">
+              <div className="md:w-7/12 bg-primary/5 md:p-15 p-10 rounded-4xl md:space-y-7 space-y-5">
+                <h2 className="md:text-3xl text-2xl text-secondary font-bold leading-10">
                   Lo que nos mueve
                 </h2>
                 <div className="space-y-2">
-                  <p className="text-third text-lg font-medium">
+                  <p className="text-third md:text-lg text-md font-medium">
                     En Kosko Taxi nos guía nuestra ambición de transformar las
                     ciudades en mejores espacios para vivir a través de la
                     movilidad. Desarrollamos tecnología por y para las
@@ -48,13 +45,13 @@ export default async function Page() {
                 </div>
               </div>
             </div>
-            <div className="flex flex-row w-full pt-10 gap-5">
-              <div className="md:w-7/12 bg-primary/5 p-15 rounded-4xl space-y-7">
-                <h2 className="text-3xl text-secondary font-bold leading-10">
+            <div className="flex md:flex-row flex-col w-full pt-10 gap-5">
+              <div className="md:w-7/12 bg-primary/5 md:p-15 p-10 rounded-4xl md:space-y-7 space-y-5">
+                <h2 className="md:text-3xl text-2xl text-secondary font-bold leading-10">
                   Lo que nos mueve
                 </h2>
                 <div className="space-y-2">
-                  <p className="text-third text-lg font-medium">
+                  <p className="text-third md:text-lg text-md font-medium">
                     Nacimos en Cusco Peru en 2020 y hemos sido pioneros en la
                     creación de una nueva movilidad en la ciudad. Estamos
                     presentes en Cusco y contamos con aproximadamente 2 unidades
@@ -85,7 +82,7 @@ export default async function Page() {
                   placeholder="blur"
                   blurDataURL="/chicas.webp"
                   alt="Services"
-                  className=" object-center object-cover w-full h-full absolute"
+                  className=" object-center object-cover w-full h-full md:absolute"
                 />
               </div>
             </div>
