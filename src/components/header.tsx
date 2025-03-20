@@ -29,23 +29,23 @@ export function Header() {
           }`}
         >
           <ul className="flex flex-col md:flex-row gap-6 md:gap-7 text-third font-semibold p-5 md:p-0">
-            <li>
-              <Link href={"/"} onClick={() => setIsOpen(false)}>
+            <li className="md:inline block w-full">
+              <Link href={"/"} onClick={() => setIsOpen(false)} className="md:inline block">
                 Home
               </Link>
             </li>
             <li>
-              <Link href={"/servicios"} onClick={() => setIsOpen(false)}>
+              <Link href={"/servicios"} onClick={() => setIsOpen(false)} className="md:inline block">
                 Services
               </Link>
             </li>
             <li>
-              <Link href={"/about"} onClick={() => setIsOpen(false)}>
+              <Link href={"/about"} onClick={() => setIsOpen(false)} className="md:inline block">
                 About
               </Link>
             </li>
             <li>
-              <p aria-disabled="true" onClick={() => setIsOpen(false)}>
+              <p aria-disabled="true" className="flex gap-1 md:inline" onClick={() => setIsOpen(false)}>
                 Blog <span className="opacity-50 text-sm bg-neutral-200 p-1 rounded-4xl">Proximamente</span>
               </p>
             </li>
