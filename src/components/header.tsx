@@ -29,7 +29,7 @@ export function Header() {
           }`}
         >
           <ul className="flex flex-col md:flex-row gap-6 md:gap-7 text-third font-semibold p-5 md:p-0">
-            <li className="md:inline block w-full">
+            <li className="">
               <Link href={"/"} onClick={() => setIsOpen(false)} className="md:inline block">
                 Home
               </Link>
